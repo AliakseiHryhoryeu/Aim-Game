@@ -16,10 +16,13 @@ body {
 a {
   color: #fff;
   text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 a:hover {
-  color: #16D9E3;
+  color: #FF185B;
+  text-shadow: 0 0 10px #770303;
 }
 
 .start {
@@ -82,11 +85,13 @@ h1 {
   font-family: inherit;
   padding: .5rem 1rem;
   font-size: 1.5rem;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .time-btn:hover {
-  border: 2px solid #16D9E3;
-  color: #16D9E3;
+  border: 2px solid #FF185B;
+  color: #FF185B;
 }
 
 .hide {
@@ -94,7 +99,7 @@ h1 {
 }
 
 .primary {
-  color: #16D9E3;
+  color: #FF185B;
 }
 
 .board {
@@ -110,11 +115,15 @@ h1 {
   position: relative;
   width: 500px;
   height: 500px;
-  background: linear-gradient(118.38deg, #29323C -4.6%, #485563 200.44%);
-  -webkit-box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
-          box-shadow: -8px -8px 20px #2A333D, 10px 7px 20px #475462;
+  background: linear-gradient(118.38deg, #29323C -4.6%, #20262D 200.44%);
+  -webkit-box-shadow: 0px 0px 20px #6805be, 0px 0px 40px #6805be;
+          box-shadow: 0px 0px 20px #6805be, 0px 0px 40px #6805be;
   border-radius: 30px;
   overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .circle {
@@ -123,5 +132,7 @@ h1 {
   position: absolute;
   border-radius: 50%;
   cursor: pointer;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
 }
 /*# sourceMappingURL=styles.css.map */
