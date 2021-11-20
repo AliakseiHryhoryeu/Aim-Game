@@ -5,3 +5,4 @@
  + SASS
  + HTML/CSS
 
+![Aim Game](/preview.png)
